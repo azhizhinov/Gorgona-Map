@@ -1,6 +1,6 @@
-class Wake : Default
+class Gorgona : Default
 {
-	worldSize = 4096;
+	worldSize = 8192;
 	traderBlds[] = { "Land_Kiosk_blueking_F", "Land_FuelStation_Build_F", "Land_CarService_F", "Land_i_Garage_V1_F", "Land_i_Shed_Ind_F", "Land_i_Shop_01_V1_F" };
 	containerPos[] = {
 			{ 2452.64, 738.437, 0 },
@@ -25,7 +25,7 @@ class Wake : Default
 			{ 2460.43, 658.79, 0 }
 	};
 	telePos[] = {
-			{ "Transport_EPOCH", { 2457.78, 3891.31, 0.34 }, "", { 1354.2754, 2374.2173, 0 } }
+			{ "Transport_EPOCH", { 0, 0, -10.2 }, "", { 1354.2754, 2374.2173, 0 } }
 	};
 	propsPos[] = {
 			{"Land_PhoneBooth_01_F", { 2936.95, 2355.41, 0.174776 }, 90.4091 },
