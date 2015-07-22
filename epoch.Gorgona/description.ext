@@ -55,7 +55,20 @@ class CfgEpochClient
 	EPOCH_news[] = {"Word is that Sappers have a new boss.","Dogs will often lure them monsters away.","My dog was blown up. I miss him.."};
 	
 	class Gorgona {
-		blockedArea[] = {};
+		blockedArea[] = {
+			{ { 2596.9089,3541.1494,0 },30 }, //Light House
+			{ { 1957.2577,2907.3325,0 },50 }, //Cimetrio
+			{ { 1787.8512,2479.1982,0 },100 }, //Mondezzaio
+			{ { 1352.922,2381.3835,0 },100 }, //Torre Vecchie
+			{ { 1357.9529,1560.6396,0 },200 }, //Campo Militare
+			{ { 1628.8853,1857.3086,0 },200 }, //Punta Gorgona
+			{ { 2374.8499,1426.3281,0 },100 }, //Helipad
+			{ { 2203.8848,930.31177,0 },100 }, //Stazione Scientifica
+			{ { 3088.4832,1839.156,0 },100 }, //Boat Trader
+			{ { 2803.9475,2481.0281,0 },600 }, //Gorgona Scalo
+			{ { 3245.0461,1459.9639,0 },20 }, //Light House
+			{ { 2388.8721,425.07349,0 },80 } //Light House
+		};
 		Rocks[] = {
 			"sharpstone_03_lc.p3d",
 			"sharpstone_02_lc.p3d",
